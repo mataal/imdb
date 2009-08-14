@@ -30,6 +30,7 @@ unless ENV['LIVE_TEST']
     
     FakeWeb.allow_net_connect = false
     { "http://www.imdb.com:80/find?q=Matrix+Revolutions;s=tt" => "search_matrix_revolutions",
+      "http://www.imdb.com/find?q=iron+maiden+flight+666;s=tt"=> "tt1361558",
       "http://www.imdb.com:80/find?q=Star+Trek;s=tt" => "search_star_trek",
       "http://www.imdb.com:80/title/tt0117731/" => "tt0117731",
       "http://www.imdb.com:80/title/tt0095016/" => "tt0095016",
